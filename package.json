@@ -1,6 +1,6 @@
 {
   "name": "@ibnlanre/use-viewport-height",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "calculates element's height required to fill the viewport",
   "files": [
     "dist"
