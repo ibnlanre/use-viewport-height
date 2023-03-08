@@ -22,8 +22,8 @@ function useListener<K extends keyof WindowEventMap>(
 
 type Height = CSSProperties["height"];
 
-function useViewportHeight<D extends Element = undefined>(
-  ref: MutableRefObject<D>,
+function useViewportHeight<D extends Element>(
+  ref: MutableRefObject<D | undefined>,
   initial: Height = "100vh"
 ): Height {
   const [height, setHeight] = useState<Height>(initial);
