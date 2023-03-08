@@ -22,7 +22,7 @@ function useListener<K extends keyof WindowEventMap>(
 
 type Height = CSSProperties["height"];
 
-function useViewportHeight<D extends Element>(
+function useViewportHeight<D extends Element = undefined>(
   ref: MutableRefObject<D>,
   initial: Height = "100vh"
 ): Height {
