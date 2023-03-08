@@ -5,7 +5,7 @@
   "files": [
     "dist"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ibnlanre/use-viewport-height.git"
